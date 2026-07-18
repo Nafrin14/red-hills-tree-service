@@ -17,14 +17,15 @@ function Hero() {
     >
       {/* Background */}
       <img
-        src={heroImage}
-        alt="Tree care professionals working at a residential property"
-        width="1920"
-        height="1080"
-        loading="eager"
-        fetchPriority="high"
-        className="absolute inset-0 h-full w-full object-cover"
-      />
+  src={heroImage}
+  alt="Red Hills Tree Service professionals providing tree care"
+  width="1600"
+  height="900"
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 h-full w-full object-cover"
+/>
 
       {/* Overlay */}
       <div
